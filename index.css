@@ -1,0 +1,93 @@
+html {
+	scroll-behavior: smooth;
+}
+
+body {
+	font-family: sans-serif;
+	font-size: 16px;
+}
+
+/* Jumbotron */
+.jumbotron {
+	background-image: url(images/Background/petsqu.jpg);
+	background-size: 100%;
+	height: 500px;
+	width: 100%;
+	position: relative;
+}
+
+.jumbotron .container {
+    z-index: 1;
+    position: relative;
+}
+
+/* Navbar */
+.navbar {
+	margin-top: -32px;
+}
+
+.navbar .navbar-nav .nav-link {
+	color: black;
+	font-family: 'Century Gothic';
+	font-weight: bold;
+}
+
+.navbar .navbar-nav .nav-link:hover {
+	color: orange;
+}
+
+.navbar .navbar-brand  {
+	font-family: 'Calisto MT';
+	font-size: 30px;
+}
+
+/* Beranda */
+.judul {
+	margin-bottom: 40px;
+}
+
+.card-img:hover {
+	box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.4);	
+}
+
+.workingspace {
+    margin-top: 20px;
+}
+
+.workingspace img {
+    margin-top: 20px;
+    margin-bottom: 45px;
+    width: 80%;
+}
+
+.workingspace h3 {
+    font-family: 'Calibri';
+    font-size: 50px;
+    font-style: italic;
+    font-weight: 200;
+    margin-top: 50px;
+    margin-bottom: 45px;
+}
+
+.workingspace h3 span {
+    color: #f0b70d;
+    font-weight: 1000;
+}
+
+.workingspace p {
+    font-family: 'Century Gothic';
+    font-size: 17px;
+    margin-top: -35px;
+}
+
+/* Footer */
+.footer {
+	margin-top: 150px;
+	border-width: 3px;
+}
+
+.footer-body {
+	color: #c9a023;
+	margin-top: 60px;
+	margin-bottom: 50px;
+}
